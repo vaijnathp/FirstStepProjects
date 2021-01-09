@@ -1,0 +1,25 @@
+
+************valid app based on availability on itunes or playstore or valid app store URL*********
++------------+---------+----------------------------------------------------------------------+-------+------------------+---------+
+|app_id      |app_store|app_url                                                               |version|supported_language|category |
++------------+---------+----------------------------------------------------------------------+-------+------------------+---------+
+|id1071749245|itunes   |https://apps.apple.com/us/app/the-united-methodist-hymnal/id1047720885|2.1.1  |[English, Hindi]  |Books    |
+|id1071749246|playstore|https://apps.apple.com/us/app/the-united-methodist-hymnal/id1047720885|2.2.1  |[English, Hindi]  |streaming|
+|id1071749247|null     |https://apps.apple.com/us/app/the-united-methodist-hymnal/id1047720885|2.1.2  |[English, Hindi]  |Gaming   |
++------------+---------+----------------------------------------------------------------------+-------+------------------+---------+
+
+************valid app based only from itunes*********
++------------+---------+----------------------------------------------------------------------+-------+------------------+--------+
+|app_id      |app_store|app_url                                                               |version|supported_language|category|
++------------+---------+----------------------------------------------------------------------+-------+------------------+--------+
+|id1071749245|itunes   |https://apps.apple.com/us/app/the-united-methodist-hymnal/id1047720885|2.1.1  |[English, Hindi]  |Books   |
++------------+---------+----------------------------------------------------------------------+-------+------------------+--------+
+
+************valid app based only from itunes which are of Gaming category*********
++------------+---------+----------------------------------------------------------------------+-------+------------------+--------+
+|app_id      |app_store|app_url                                                               |version|supported_language|category|
++------------+---------+----------------------------------------------------------------------+-------+------------------+--------+
+|id1071749247|null     |https://apps.apple.com/us/app/the-united-methodist-hymnal/id1047720885|2.1.2  |[English, Hindi]  |Gaming  |
+|id1071749247|null     |null                                                                  |2.1.2  |[English, Hindi]  |Gaming  |
++------------+---------+----------------------------------------------------------------------+-------+------------------+--------+
+
